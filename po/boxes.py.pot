@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-24 18:13+0100\n"
+"POT-Creation-Date: 2025-02-03 17:45-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -782,8 +782,8 @@ msgstr ""
 
 #. help for parameter debug
 msgid ""
-"print surrounding boxes for some structures [🛈](https://florianfesti.github."
-"io/boxes/html/usermanual.html#debug)"
+"print surrounding boxes for some structures [🛈](https://"
+"florianfesti.github.io/boxes/html/usermanual.html#debug)"
 msgstr ""
 
 #. parameter name
@@ -1217,8 +1217,8 @@ msgid ""
 "with\n"
 "materials around this thickness.\n"
 "\n"
-"This is an insert for the [Agricola Revised Edition](https://boardgamegeek."
-"com/boardgame/200680/agricola-revised-edition)\n"
+"This is an insert for the [Agricola Revised Edition](https://"
+"boardgamegeek.com/boardgame/200680/agricola-revised-edition)\n"
 "board game. It is specifically designed around the [Farmers Of The Moor "
 "expansion](https://boardgamegeek.com/boardgameexpansion/257344/agricola-"
 "farmers-moor),\n"
@@ -5583,8 +5583,8 @@ msgid ""
 "![HalfBox as hanging shelf](static/samples/HalfBox_Shelf_usage.jpg)\n"
 "\n"
 "* an angle clamping jig:\n"
-"![HalfBox as an angle clamping jig](static/samples/HalfBox_AngleJig_usage."
-"jpg)\n"
+"![HalfBox as an angle clamping jig](static/samples/"
+"HalfBox_AngleJig_usage.jpg)\n"
 "\n"
 "* a bookend:\n"
 "![HalfBox as a bookend](static/samples/HalfBox_Bookend_usage.jpg)\n"
@@ -10676,11 +10676,60 @@ msgstr ""
 msgid "Add a fourth piece to make a U-Beam with a flange"
 msgstr ""
 
+#: scripts/boxesserver:232
+#, python-format
+msgid "%s - Boxes"
+msgstr ""
+
+#: scripts/boxesserver:242 scripts/boxesserver:319 scripts/boxesserver:430
+#: scripts/boxesserver:550
+msgid "Boxes.py"
+msgstr ""
+
+#: scripts/boxesserver:280
+msgid "Generate"
+msgstr ""
+
+#: scripts/boxesserver:281
+msgid "Download"
+msgstr ""
+
+#: scripts/boxesserver:282
+msgid "Save to URL"
+msgstr ""
+
+#: scripts/boxesserver:283
+msgid "QR Code"
+msgstr ""
+
 #: scripts/boxesserver:292
 msgid ""
 "There is no image yet. Please donate an image of your project on <a "
 "href=&quot;https://github.com/florianfesti/boxes/issues/628&quot; "
 "target=&quot;_blank&quot; rel=&quot;noopener&quot;>GitHub</a>!"
+msgstr ""
+
+#: scripts/boxesserver:330 scripts/boxesserver:550 scripts/boxesserver:561
+msgid "Gallery"
+msgstr ""
+
+#: scripts/boxesserver:331 scripts/boxesserver:562
+msgid "Menu"
+msgstr ""
+
+#: scripts/boxesserver:431
+msgid "Create boxes and more with a laser cutter!"
+msgstr ""
+
+#: scripts/boxesserver:433
+msgid ""
+"\n"
+"        <a href=\"https://hackaday.io/project/10649-boxespy\">Boxes.py</a> "
+"is an <a href=\"https://www.gnu.org/licenses/gpl-3.0.en.html\">Open Source</"
+"a> box generator written in <a href=\"https://www.python.org/\">Python</a>. "
+"It features both finished parametrized generators as well as a Python API "
+"for writing your own. It features finger and (flat) dovetail joints, flex "
+"cuts, holes and slots for screws, hinges, gears, pulleys and much more."
 msgstr ""
 
 #: scripts/boxesserver:457
@@ -10705,4 +10754,13 @@ msgstr ""
 
 #: scripts/boxesserver:463
 msgid "Give Back"
+msgstr ""
+
+#: scripts/boxesserver:475
+#, python-format
+msgid "Error generating %s"
+msgstr ""
+
+#: scripts/boxesserver:480
+msgid "An error occurred!"
 msgstr ""
