@@ -55,7 +55,9 @@ class ABoxx(Boxes):
                              callback=[None, lambda: self.hole(5, 5, d=d1)],
                              ignore_widths=[1, 6], move="up",
 			    )
-        self.rectangularTriangle(5, 5, "ffe", num=4,
-            callback=[None, lambda: self.hole(5, 5, d=d1)])
+        self.rectangularTriangle(y, h, "eee", num=2)
+
+
+
 
         print("\nOK2025\n")
