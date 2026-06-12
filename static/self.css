@@ -254,3 +254,78 @@ textarea {
     background-color: #DFD8BA;
 
 }
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        color-scheme: dark;
+    }
+
+    body {
+        background-color: #121212;
+    }
+
+    html,
+    button,
+    input,
+    select,
+    textarea {
+        color: #ddd;
+    }
+
+    a {
+        color: #C8B891;
+    }
+
+    .menu li {
+        color: #aaa;
+    }
+
+    li a, a h1 {
+        color: #ccc;
+    }
+
+    h3:hover {
+        background-color: #ddd;
+        color: #222;
+    }
+
+    .argumentcontainer,
+    .container {
+        background-color: #211F1A;
+        box-shadow: 0 0 5px 0 #000;
+    }
+
+    hr {
+        border-top-color: #444;
+    }
+
+    .linkbar ul li a {
+        color: #999;
+    }
+
+    .menu ul li:hover {
+        background-color: #ddd;
+        color: #222;
+    }
+
+    .menu ul li:hover a {
+        color: #444;
+    }
+
+    .menu ul li span {
+        color: #ccc;
+    }
+
+    /* rendered previews are black strokes on transparent background */
+    #preview_img {
+        background-color: #fff;
+    }
+
+    .modebutton {
+        background-color: #3A352A;
+    }
+
+    .modeactive {
+        background-color: #57503A;
+    }
+}
